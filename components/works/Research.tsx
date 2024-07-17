@@ -20,7 +20,13 @@ const Research = () => {
                 <span className='text-textGreen mt-1'>
                     <FaAngleRight />
                 </span>
-                bullet point
+                Utilizing YouTube API and Python to scrape and compile a JSON dataset of 9,000 comments to use as foundation in a machine learning model. 
+            </li>
+            <li className='text-jobDuration flex gap-2 text-textDark'>
+                <span className='text-textGreen mt-1'>
+                    <FaAngleRight />
+                </span>
+                Creating a machine learning model using NLP to classify new comments as disinformation or not, targeting an accuracy of 85%. 
             </li>
         </ul>
     </motion.div>

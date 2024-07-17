@@ -11,7 +11,7 @@ const Projects = () => {
                 title="Outline: Tasking Made Fun"
                 desc="A social media app where you can share your to-do list for the day with your friends."
                 listItem={["React Native", "Firestore", "PostgreSQL"]}
-                link="github.com/Rajie04"
+                link="https://github.com/ameerghazal/Outline-Application"
             />
             <ProjectCard 
                 title="Walk.io - Activity Tracker"
@@ -20,10 +20,10 @@ const Projects = () => {
                 link="github.com/Rajie04"
             />
             <ProjectCard 
-                title="Outline: Tasking Made Fun"
-                desc="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque, quaerat."
-                listItem={["React Native", "Firestore", "PostgreSQL"]}
-                link="github.com/Rajie04"
+                title="Forkify"
+                desc="Recipe application where users can search existing recipes and upload new ones."
+                listItem={["JavaScript", "SASS", "HTML"]}
+                link="https://forkify-ahmed-raja.netlify.app/"
             />
         </div>
     </section>

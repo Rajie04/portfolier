@@ -11,7 +11,7 @@ const Activities = () => {
         {/* Hacklahoma */}
         <div className='w-full flex flex-col items-center justify-center gap-28 mt-10'>
             <div className='flex flex-col xl:flex-row gap-6'>
-                <a href="https://hacklahoma.org/" className='w-full xl:w-1/2 h-auto relative group'>
+                <a href="https://hacklahoma.org/" className='w-full xl:w-1/2 h-auto relative group' target='_blank'>
                     <div>
                         <Image 
                         // xl:max-w-full max-w-[70%]
@@ -42,7 +42,7 @@ const Activities = () => {
         {/* OU AI/ML */}
         <div className='w-full flex flex-col items-center justify-center gap-28 mt-10'>
             <div className='flex flex-col xl:flex-row-reverse gap-6'>
-                <a href="https://www.instagram.com/ou.artificial/" className='w-full xl:w-1/2 h-auto relative group'>
+                <a href="https://www.instagram.com/ou.artificial/" className='w-full xl:w-1/2 h-auto relative group' target='_blank'>
                     <div className='flex justify-end'>
                         <Image 
                             className='w-full h-full object-contain'
@@ -71,7 +71,7 @@ const Activities = () => {
         {/* OU MSA */}
         <div className='w-full flex flex-col items-center justify-center gap-28 mt-10'>
             <div className='flex flex-col xl:flex-row gap-6'>
-                <a href="https://muslimsofou.wixsite.com/oumsa" className='w-full xl:w-1/2 h-auto relative group'>
+                <a href="https://muslimsofou.wixsite.com/oumsa" className='w-full xl:w-1/2 h-auto relative group' target='_blank'>
                     <div>
                         <Image 
                             className='w-full h-full object-contain'
