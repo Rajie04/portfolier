@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react'
 import SectionTitle from './SectionTitle'
-import { AiFillThunderbolt } from 'react-icons/ai'
 import { headshot } from '@/public/assets'
 import Image from 'next/image'
 import { FaAngleRight } from 'react-icons/fa'

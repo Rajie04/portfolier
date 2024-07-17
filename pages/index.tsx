@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import LeftSide from "@/components/LeftSide";
@@ -10,12 +9,16 @@ import Experience from "@/components/Experience";
 import Activities from "@/components/Activities";
 import Projects from "@/components/Projects";
 import Footer from "@/components/Footer";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Raja Ahmed :D</title>
+      </Head>
       <Navbar />
       <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
         <motion.div initial={{opacity:0}} animate={{opacity: 1}} transition={{delay: 1.5}} className="hidden border-green xl:inline-flex w-32 h-full fixed left-0 bottom-0">
