@@ -54,7 +54,7 @@ const Activities = () => {
                 </a>
                 <div className='w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-center text-right z-10'>
                     <p className='font-titleFont text-textGreen text-lg tracking-wide'>OU AI / ML</p>
-                    <h3 className='text-2xl font-bold'>Operations Officer</h3>
+                    <h3 className='text-2xl font-bold'>Outreach Officer</h3>
                     <p className='bg-[#112240] text-lg md:text-base p-2 md:p-6 xl:-mr-16 rounded-md'>
                     Coordinate workshops and speaker events annually, enhancing AI/ML learning for over 300 club members.
                     Expanding club membership through promotions and collaboration with university departments.
